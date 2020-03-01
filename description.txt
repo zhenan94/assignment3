@@ -1,0 +1,27 @@
+Zhenan Liu
+CS5150
+Assignment3
+
+List of approach:
+
+1. change the draw methods for mobs and bridges so that it can consistent with buildings and position.
+
+2. fix the building attack. Now, the building can find and attack mobs.
+
+3. add buildings into the target list of mobs.
+
+4. write the uuid generator for mobs.
+
+5. write a to check collisionbetween mobs and the river.
+6. implement check collision between mobs and buildings.
+7. implement process collision to handle collision:
+	1. when mobs have the same mass and are on the same side, the back one will move back.
+	2. when mobs have the same mass and are on different sides, both mobs will move back.
+	3. when mobs have smaller mass, it will move back.
+	4.when mobs have bigger mass, it will keep it current situation.
+8. write a method to handle the situation that mobs would push each others into the rivers.
+9. write a method to handle the situation mobs are colliding with rivers. The mobs will move along with the river and find the nearest bridge.
+
+What I still like to improve:
+1. Try to make that the smaller mobs will move to the side of the bigger mobs instead of moving back.
+2. Try to make that the faster mobs can get around the slower mobs in front of them. 
